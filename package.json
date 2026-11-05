@@ -1,0 +1,21 @@
+{
+  "name": "small-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small web of one-page sites, and the browser you read them in.",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm run dev --workspace @smallweb/api",
+    "dev:web": "npm run dev --workspace @smallweb/web",
+    "build": "npm run build --workspace @smallweb/api && npm run build --workspace @smallweb/web",
+    "seed": "npm run seed --workspace @smallweb/api",
+    "seed:reset": "npm run seed --workspace @smallweb/api -- --reset",
+    "test": "npm run test --workspace @smallweb/api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
