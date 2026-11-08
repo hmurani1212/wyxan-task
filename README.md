@@ -4,6 +4,9 @@ Ten one-page websites at ten addresses, and the browser you read them in.
 
 Next.js (browser) + NestJS (web API) + MongoDB, in one npm workspace.
 
+**[docs/PROJECT.md](docs/PROJECT.md)** explains the model, the decisions behind it,
+and contains the timed script for the narrated walkthrough.
+
 ## Run it
 
 ```bash
@@ -33,6 +36,12 @@ Environment: copy `.env.example` to `.env` if Mongo is somewhere else.
 `MONGODB_URI` defaults to `mongodb://127.0.0.1:27017/smallweb`.
 
 Tests: `npm test` (address canonicalisation, the sanitiser, seed integrity).
+
+## Recording
+
+The narrated walkthrough follows [docs/PROJECT.md](docs/PROJECT.md#7-recording).
+Before recording, `npm run seed:reset` then `npm run dev`, and browse as Nadia
+Falk. Save the recording as `docs/recording.mp4` and link it here.
 
 ## The shape of it
 
