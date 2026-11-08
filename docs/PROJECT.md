@@ -63,7 +63,7 @@ The API answers alone at <http://localhost:4000/api/health> →
 ```
 --reset: removed 6 people, 10 sites, 64 visits
 seeded 6 people, 10 sites (10 seeded), 64 visits
-seeded visits replaced: 64; window: 2026-10-27T18:00:00.000Z + 60 minutes
+seeded visits replaced: 0; window: 2026-10-27T18:00:00.000Z + 60 minutes
 addresses: tidepool.zz, saltmarsh.zz, lantern.zz, copperwire.zz, rainfall.zz,
   paperlanes.zz, mothbook.zz, harbours.zz, tinners.zz, bellwether.zz
 sign in as any of: Maren Oyelaran, Ivo Brekke, Wren Sato, Nadia Falk, Tomas Vey, Osric Bell
