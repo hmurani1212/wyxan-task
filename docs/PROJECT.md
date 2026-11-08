@@ -406,3 +406,16 @@ API surface, all under `/api`:
   back/forward stack, though history on the server is the same.
 - Styling was verified through geometry and computed styles; it has not been
   reviewed pixel by pixel on a phone.
+
+---
+
+## 10. Submission checklist
+
+- [ ] Public GitHub repository, with this history as it stands: a sequence of
+      coherent commits, not one import of the finished tree.
+- [ ] Recording saved as `docs/recording.mp4`, linked from the README's
+      **Recording** section.
+- [ ] The README's **Run it** section is the canonical answer to "the commands
+      needed to run both sides and seed the data".
+- [ ] A fresh clone works: `npm install`, `npm run seed`, `npm run dev`.
+      Nothing in the repository depends on a file that is git-ignored.
